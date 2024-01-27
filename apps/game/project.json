@@ -25,9 +25,6 @@
   },
   "implicitDependencies": [
     "textmeshpro-essentials",
-    "rainbowfolders",
-    "enhancedhierarchy",
-    "editorspotlight",
     "daniel-utils"
   ]
 }

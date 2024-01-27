@@ -22,7 +22,6 @@ dependencies {
   implementation("org.jetbrains.kotlin:kotlin-reflect")
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
   implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.9")
-  implementation("com.discord4j:discord4j-core:3.2.3")
   implementation("com.aallam.openai:openai-client:3.5.1")
   implementation("io.ktor:ktor-client-okhttp:2.0.3")
   testImplementation("org.springframework.boot:spring-boot-starter-test")

@@ -9,3 +9,5 @@ logging:
     root: info
     org.springframework: info
     com.danielkreitsch: ${LOG_LEVEL:info}
+openai:
+  token: ${OPENAI_TOKEN}

@@ -46,6 +46,23 @@ namespace DanielUtils
       }
     }
 
+    // <summary>
+    ///   Enqueue action to be executed in main thread after a delay.
+    /// </summary>
+    public void Enqueue(Action action, float delay)
+    {
+      lock (executionQueue)
+      {
+        executionQueue.Enqueue(() => StartCoroutine(ExecuteWithDelay(action, delay)));
+      }
+    }
+
+    private IEnumerator ExecuteWithDelay(Action action, float delay)
+    {
+      yield return new WaitForSeconds(delay);
+      action.Invoke();
+    }
+
     private IEnumerator RunActionAndSetProcessingToFalse(Action action)
     {
       action.Invoke();

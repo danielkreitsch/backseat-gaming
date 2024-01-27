@@ -7,7 +7,8 @@
     "build": {
       "executor": "@nxrocks/nx-spring-boot:build",
       "options": {
-        "root": "apps/backend"
+        "root": "apps/backend",
+        "args": ["-DskipTests"]
       },
       "dependsOn": ["^install"],
       "outputs": ["{workspaceRoot}/apps/backend/build"]
@@ -58,12 +59,12 @@
       }
     },
     "deploy": {
-      "executor": "@glowdragon/nx-dokku:deploy-dist",
+      "executor": "nx-dokku:deploy-dist",
       "dependsOn": ["build"],
       "options": {
         "path": "dist/apps/backend",
         "host": "s1.danielkreitsch.com",
-        "app": "globalgamejam2024-backend"
+        "app": "backseatgaming-backend"
       }
     }
   },
