@@ -1,0 +1,15 @@
+{
+    "name": "Backseat Gaming",
+    "short_name": "Backseat Gaming",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#1F1F20",
+    "theme_color": "#000",
+    "description": "Backseat Gaming is an experimental 2D platformer where you're in command, not in control. In this game, you issue natural language prompts to guide a blind character. Instead of playing directly, you watch the action unfold based on your instructions.",
+    "icons": [{
+      "src": "TemplateData/icons/unity-logo-dark.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }]
+  }

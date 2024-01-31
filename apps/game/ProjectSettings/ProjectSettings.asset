@@ -387,7 +387,11 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    PRODUCT_DESCRIPTION: Backseat Gaming is an experimental 2D platformer where you're
+      in command, not in control. In this game, you issue natural language prompts
+      to guide a blind character. Instead of playing directly, you watch the action
+      unfold based on your instructions.
   mobileMTRendering:
     Android: 1
     Bratwurst: 1
@@ -642,7 +646,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: APPLICATION:Default
+  webGLTemplate: APPLICATION:PWA
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 0
