@@ -1,7 +1,7 @@
-package com.danielkreitsch.globalgamejam2024.controllers
+package com.danielkreitsch.backseatgaming.controllers
 
-import com.danielkreitsch.globalgamejam2024.model.GameAction
-import com.danielkreitsch.globalgamejam2024.services.PlayerInputGenerator
+import com.danielkreitsch.backseatgaming.model.GameAction
+import com.danielkreitsch.backseatgaming.services.PlayerInputGenerator
 import kotlinx.coroutines.runBlocking
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity

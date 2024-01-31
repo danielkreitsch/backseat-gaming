@@ -1,10 +1,10 @@
-package com.danielkreitsch.globalgamejam2024.services
+package com.danielkreitsch.backseatgaming.services
 
 import com.aallam.openai.api.chat.*
 import com.aallam.openai.api.http.Timeout
 import com.aallam.openai.api.model.ModelId
 import com.aallam.openai.client.OpenAI
-import com.danielkreitsch.globalgamejam2024.configs.OpenAIConfig
+import com.danielkreitsch.backseatgaming.configs.OpenAIConfig
 import kotlin.time.Duration.Companion.seconds
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service

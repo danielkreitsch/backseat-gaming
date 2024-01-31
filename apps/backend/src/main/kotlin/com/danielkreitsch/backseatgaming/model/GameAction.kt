@@ -1,4 +1,4 @@
-package com.danielkreitsch.globalgamejam2024.model
+package com.danielkreitsch.backseatgaming.model
 
 import com.fasterxml.jackson.annotation.JsonInclude
 

@@ -1,6 +1,6 @@
-package com.danielkreitsch.globalgamejam2024.services
+package com.danielkreitsch.backseatgaming.services
 
-import com.danielkreitsch.globalgamejam2024.model.*
+import com.danielkreitsch.backseatgaming.model.*
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
 

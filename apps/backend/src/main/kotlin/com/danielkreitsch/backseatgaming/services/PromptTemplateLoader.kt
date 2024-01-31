@@ -1,6 +1,6 @@
-package com.danielkreitsch.globalgamejam2024.services
+package com.danielkreitsch.backseatgaming.services
 
-import com.danielkreitsch.globalgamejam2024.model.PromptTemplate
+import com.danielkreitsch.backseatgaming.model.PromptTemplate
 import org.springframework.core.io.*
 import org.springframework.stereotype.Service
 import java.io.*

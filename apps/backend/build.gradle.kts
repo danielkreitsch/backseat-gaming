@@ -46,7 +46,7 @@ tasks {
 
 springBoot {
   buildInfo()
-  mainClass = "com.danielkreitsch.globalgamejam2024.BackendApplicationKt"
+  mainClass = "com.danielkreitsch.backseatgaming.BackendApplicationKt"
 }
 
 publishing {

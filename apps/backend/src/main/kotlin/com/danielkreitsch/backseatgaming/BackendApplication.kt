@@ -1,4 +1,4 @@
-package com.danielkreitsch.globalgamejam2024
+package com.danielkreitsch.backseatgaming
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

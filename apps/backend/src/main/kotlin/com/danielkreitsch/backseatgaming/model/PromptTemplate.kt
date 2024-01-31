@@ -1,4 +1,4 @@
-package com.danielkreitsch.globalgamejam2024.model
+package com.danielkreitsch.backseatgaming.model
 
 data class PromptTemplate(val prompt: String) {
   fun replace(name: String, value: String): PromptTemplate {

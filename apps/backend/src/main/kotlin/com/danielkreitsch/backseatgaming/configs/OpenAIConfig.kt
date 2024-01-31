@@ -1,4 +1,4 @@
-package com.danielkreitsch.globalgamejam2024.configs
+package com.danielkreitsch.backseatgaming.configs
 
 import org.springframework.boot.context.properties.ConfigurationProperties
 import org.springframework.context.annotation.Configuration
