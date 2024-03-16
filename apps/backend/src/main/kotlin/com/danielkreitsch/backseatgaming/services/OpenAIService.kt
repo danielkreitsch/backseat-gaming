@@ -27,8 +27,7 @@ class OpenAIService(private val openAIConfig: OpenAIConfig) {
 
     // Log token usage
     this.logger.info(
-        "Token usage - Total: ${completion.usage?.totalTokens}, Input: ${completion.usage?.promptTokens}, Output:" +
-            " ${completion.usage?.completionTokens}")
+        "Token usage: ${completion.usage?.totalTokens} (Prompt: ${completion.usage?.promptTokens}, Completion: ${completion.usage?.completionTokens})")
 
     return response
   }
